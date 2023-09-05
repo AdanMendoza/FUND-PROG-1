@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ADRIANA ROMERO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-04 09:53:21 p. m."/>
+        <attribute name="created" value="QURSSUFOQSBST01FUk87REVTS1RPUC1DUVQ2RE1NOzIwMjMtMDktMDQ7MDk6NTA6MTQgcC4gbS47MzU1OA=="/>
+        <attribute name="edited" value="QURSSUFOQSBST01FUk87REVTS1RPUC1DUVQ2RE1NOzIwMjMtMDktMDQ7MDk6NTM6MjEgcC4gbS47MTszNjY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduzca calificaci&#243;n&quot;" newline="True"/>
+            <input variable="Califa"/>
+            <output expression="&quot;Tu calificaci&#243;n es&quot;" newline="True"/>
+            <output expression="Califa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
