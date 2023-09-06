@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ADRIANA ROMERO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 09:18:05 p. m."/>
+        <attribute name="created" value="QURSSUFOQSBST01FUk87REVTS1RPUC1DUVQ2RE1NOzIwMjMtMDktMDU7MDg6MjI6MTEgcC4gbS47MzU1NA=="/>
+        <attribute name="edited" value="QURSSUFOQSBST01FUk87REVTS1RPUC1DUVQ2RE1NOzIwMjMtMDktMDU7MDk6MTg6MDUgcC4gbS47MTszNjcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Apellidos" type="String" array="False" size=""/>
+            <declare name="Nombre" type="String" array="False" size=""/>
+            <declare name="Domicilio" type="String" array="False" size=""/>
+            <declare name="Servm&#233;dico" type="Boolean" array="False" size=""/>
+            <declare name="Edad" type="Integer" array="False" size=""/>
+            <declare name="Promedio" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduzca sus apellidos&quot;" newline="True"/>
+            <input variable="Apellidos"/>
+            <output expression="&quot;Introduzca su nombre&quot;" newline="True"/>
+            <input variable="Nombre"/>
+            <output expression="&quot;Introduzca su domicilio&quot;" newline="True"/>
+            <input variable="Domicilio"/>
+            <output expression="&quot;Introduzca su servicio m&#233;dico&quot;" newline="True"/>
+            <input variable="Servm&#233;dico"/>
+            <output expression="&quot;Introduzca su edad&quot;" newline="True"/>
+            <input variable="Edad"/>
+            <output expression="&quot;Introduzca su promedio&quot;" newline="True"/>
+            <input variable="Promedio"/>
+        </body>
+    </function>
+</flowgorithm>
