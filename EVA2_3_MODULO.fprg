@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ADRIANA ROMERO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 09:49:45 p. m."/>
+        <attribute name="created" value="QURSSUFOQSBST01FUk87REVTS1RPUC1DUVQ2RE1NOzIwMjMtMTAtMDk7MDk6NDc6MjUgcC4gbS47MzU2Mw=="/>
+        <attribute name="edited" value="QURSSUFOQSBST01FUk87REVTS1RPUC1DUVQ2RE1NOzIwMjMtMTAtMDk7MDk6NDk6NDUgcC4gbS47MTszNjc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce el valor a evaluar&quot;" newline="True"/>
+            <input variable="Valor"/>
+            <declare name="residuo" type="Integer" array="False" size=""/>
+            <assign variable="residuo" expression="Valor % 2"/>
+            <if expression="residuo = 0">
+                <then>
+                    <output expression="&quot;EL N&#218;MERO ES PAR!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;EL N&#218;MERO ES IMPAR!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
