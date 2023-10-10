@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ADRIANA ROMERO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 09:46:27 p. m."/>
+        <attribute name="created" value="QURSSUFOQSBST01FUk87REVTS1RPUC1DUVQ2RE1NOzIwMjMtMTAtMDk7MDk6MTc6MzcgcC4gbS47MzU2Mw=="/>
+        <attribute name="edited" value="QURSSUFOQSBST01FUk87REVTS1RPUC1DUVQ2RE1NOzIwMjMtMTAtMDk7MDk6NDY6MjcgcC4gbS47MTszNjcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Valor1" type="Integer" array="False" size=""/>
+            <declare name="Valor2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce el valor 1&quot;" newline="True"/>
+            <input variable="Valor1"/>
+            <output expression="&quot;Introduce el valor 2&quot;" newline="True"/>
+            <input variable="Valor2"/>
+            <if expression="Valor1 &gt; Valor2">
+                <then>
+                    <output expression="&quot;El valor m&#225;s grande es;&quot;" newline="True"/>
+                    <output expression="Valor1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Valor1 = Valor2">
+                        <then>
+                            <output expression="Valor1" newline="True"/>
+                            <output expression="&quot;Es igual que&quot;" newline="True"/>
+                            <output expression="Valor2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;El valor m&#225;s peque&#241;o es:&quot;" newline="True"/>
+                            <output expression="Valor1" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
